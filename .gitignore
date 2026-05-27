@@ -1,0 +1,19 @@
+# Credentials & Secrets
+.env
+.env.local
+.env.*.local
+
+# Python Virtual Environments & Caching
+backend/.venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node / Next.js Dependencies & Builds
+frontend/node_modules/
+node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+.DS_Store
